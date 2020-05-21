@@ -1,0 +1,45 @@
+{
+  "name": "@youbox/deployer",
+  "description": "Light deployment module for easily deploying YOUChain contracts",
+  "license": "MIT",
+  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/deployer#readme",
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/deployer",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "version": "1.0.0-alpha.33",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-warnings --timeout 10000 --exit"
+  },
+  "dependencies": {
+    "@ensdomains/ens": "^0.3.11",
+    "@ensdomains/resolver": "0.1.12",
+    "@youbox/contract": "^1.0.0-alpha.33",
+    "@youbox/expect": "^1.0.0-alpha.33",
+    "emittery": "^0.4.0",
+    "eth-ens-namehash": "^2.0.8",
+    "ethereum-ens": "^0.7.7",
+    "youchain-utils": "^1.0.0-alpha.36"
+  },
+  "devDependencies": {
+    "@youbox/reporters": "^1.0.0-alpha.33",
+    "@youbox/workflow-compile": "^1.0.0-alpha.33",
+    "ganache-core": "2.8.0",
+    "mocha": "5.2.0",
+    "sinon": "^7.3.2",
+    "youchain": "^1.0.0-alpha.36"
+  },
+  "keywords": [
+    "contracts",
+    "deployment",
+    "youchain",
+    "solidity",
+    "youbox"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

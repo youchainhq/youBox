@@ -1,0 +1,37 @@
+{
+  "name": "@youbox/external-compile",
+  "description": "Wrapper to compile YOUBox contracts with arbitrary shell command",
+  "license": "MIT",
+  "author": "g. nicholas d'andrea <gnidan@users.noreply.github.com>",
+  "homepage": "https://github.com/trufflesuite/truffle#readme",
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/external-compile",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "version": "1.0.0-alpha.33",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@youbox/contract-schema": "^1.0.0-alpha.33",
+    "@youbox/expect": "^1.0.0-alpha.33",
+    "debug": "^4.1.0",
+    "glob": "^7.1.2",
+    "youchain-utils": "^1.0.0-alpha.36"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "5.2.0",
+    "temp": "^0.8.3"
+  },
+  "keywords": [
+    "youchain",
+    "smart-contract",
+    "youbox"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

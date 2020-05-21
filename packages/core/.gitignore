@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+.tern-port
+yarn.lock
+youbox-config.js
+unlockAccount.js
+build/contracts/
+contracts/
+migrations/
+testjs

@@ -1,0 +1,49 @@
+{
+  "name": "@youbox/config",
+  "version": "1.0.0-alpha.33",
+  "description": "Utility for interacting with youbox-config.js files",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build",
+    "test": "yarn build && mocha --exit -r ts-node/register test/**/*.test.ts"
+  },
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/config",
+  "keywords": [
+    "youchain",
+    "youbox",
+    "config"
+  ],
+  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/config#readme",
+  "devDependencies": {
+    "@types/configstore": "^4.0.0",
+    "@types/find-up": "^2.1.0",
+    "@types/sinon": "^7.0.13",
+    "mocha": "6.2.0",
+    "sinon": "^7.5.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.12.9",
+    "@youbox/error": "^1.0.0-alpha.33",
+    "@youbox/events": "^1.0.0-alpha.33",
+    "@youbox/provider": "^1.0.0-alpha.33",
+    "configstore": "^4.0.0",
+    "find-up": "^2.1.0",
+    "lodash": "^4.17.13",
+    "module": "^1.2.5",
+    "original-require": "1.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

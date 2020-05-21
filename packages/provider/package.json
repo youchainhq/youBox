@@ -1,0 +1,36 @@
+{
+  "name": "@youbox/provider",
+  "description": "Beefed up provider module for YOUBox",
+  "license": "MIT",
+  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/provider#readme",
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/provider",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "version": "1.0.0-alpha.33",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "types": "./typings/index.d.ts",
+  "dependencies": {
+    "@youbox/error": "^1.0.0-alpha.33",
+    "@youbox/interface-adapter": "^1.0.0-alpha.33",
+    "youchain": "^1.0.0-alpha.36"
+  },
+  "devDependencies": {
+    "ganache-core": "2.8.0",
+    "mocha": "5.2.0"
+  },
+  "keywords": [
+    "youchain",
+    "http",
+    "provider",
+    "youbox"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

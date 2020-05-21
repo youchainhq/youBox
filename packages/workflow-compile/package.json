@@ -1,0 +1,35 @@
+{
+  "name": "@youbox/workflow-compile",
+  "version": "1.0.0-alpha.33",
+  "description": "Core workflow behavior for `youbox compile` command",
+  "dependencies": {
+    "@youbox/artifactor": "^1.0.0-alpha.33",
+    "@youbox/compile-solidity": "^1.0.0-alpha.33",
+    "@youbox/compile-vyper": "^1.0.0-alpha.33",
+    "@youbox/config": "^1.0.0-alpha.33",
+    "@youbox/expect": "^1.0.0-alpha.33",
+    "@youbox/external-compile": "^1.0.0-alpha.33",
+    "@youbox/resolver": "^1.0.0-alpha.33",
+    "fs-extra": "^7.0.1",
+    "mkdirp": "^0.5.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/workflow-compile",
+  "author": "YOUBox Suite <inquiry@trufflesuite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/workflow-compile#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1",
+    "mocha": "5.2.0"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

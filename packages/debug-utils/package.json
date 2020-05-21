@@ -1,0 +1,34 @@
+{
+  "name": "@youbox/debug-utils",
+  "version": "1.0.0-alpha.33",
+  "description": "Integration utils for truffle/debugger",
+  "dependencies": {
+    "@trufflesuite/chromafi": "^2.1.2",
+    "@youbox/codec": "^1.0.0-alpha.33",
+    "chalk": "^2.4.2",
+    "debug": "^4.1.0",
+    "highlight.js": "^9.15.8",
+    "highlightjs-solidity": "^1.0.8",
+    "node-dir": "0.1.17"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/debug-utils",
+  "author": "YOUBox Suite <inquiry@trufflesuite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/debug-utils#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "safe-eval": "^0.4.1"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

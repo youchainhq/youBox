@@ -1,0 +1,41 @@
+{
+  "name": "@youbox/migrate",
+  "description": "On-chain migrations management",
+  "license": "MIT",
+  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/migrate#readme",
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/migrate",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "version": "1.0.0-alpha.33",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* ./test/**/*"
+  },
+  "dependencies": {
+    "@youbox/config": "^1.0.0-alpha.33",
+    "@youbox/deployer": "^1.0.0-alpha.33",
+    "@youbox/expect": "^1.0.0-alpha.33",
+    "@youbox/interface-adapter": "^1.0.0-alpha.33",
+    "@youbox/reporters": "^1.0.0-alpha.33",
+    "@youbox/require": "^1.0.0-alpha.33",
+    "emittery": "^0.4.0",
+    "glob": "^7.1.6",
+    "youchain": "^1.0.0-alpha.36"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "sinon": "^7.3.2"
+  },
+  "keywords": [
+    "deployment",
+    "youchain",
+    "migrations",
+    "youbox"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

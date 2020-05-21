@@ -1,0 +1,80 @@
+{
+  "name": "@youbox/core",
+  "description": "Core code for YOUBox command line tool",
+  "author": "YOUChain Foundation",
+  "homepage": "https://github.com/trufflesuite/truffle#readme",
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/core",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "version": "1.0.0-alpha.33",
+  "bin": {
+    "youbox": "./cli.js",
+    "youbox-exec": "./exec.js"
+  },
+  "scripts": {
+    "test": "mocha ./test/** ./test/**/*"
+  },
+  "dependencies": {
+    "@youbox/artifactor": "^1.0.0-alpha.33",
+    "@youbox/box": "^1.0.0-alpha.33",
+    "@youbox/codec": "^1.0.0-alpha.33",
+    "@youbox/compile-solidity": "^1.0.0-alpha.33",
+    "@youbox/config": "^1.0.0-alpha.33",
+    "@youbox/contract": "^1.0.0-alpha.33",
+    "@youbox/contract-sources": "^1.0.0-alpha.33",
+    "@youbox/debug-utils": "^1.0.0-alpha.33",
+    "@youbox/debugger": "^1.0.0-alpha.33",
+    "@youbox/deployer": "^1.0.0-alpha.33",
+    "@youbox/environment": "^1.0.0-alpha.33",
+    "@youbox/error": "^1.0.0-alpha.33",
+    "@youbox/expect": "^1.0.0-alpha.33",
+    "@youbox/interface-adapter": "^1.0.0-alpha.33",
+    "@youbox/migrate": "^1.0.0-alpha.33",
+    "@youbox/provider": "^1.0.0-alpha.33",
+    "@youbox/provisioner": "^1.0.0-alpha.33",
+    "@youbox/require": "^1.0.0-alpha.33",
+    "@youbox/resolver": "^1.0.0-alpha.33",
+    "@youbox/workflow-compile": "^1.0.0-alpha.33",
+    "app-module-path": "^2.2.0",
+    "async": "2.6.1",
+    "bip39": "^2.2.0",
+    "chai": "4.2.0",
+    "colors": "^1.1.2",
+    "command-exists": "^1.2.8",
+    "configstore": "^4.0.0",
+    "cpr": "^3.0.1",
+    "debug": "^4.1.0",
+    "del": "^2.2.0",
+    "ethereumjs-wallet": "^0.6.2",
+    "fs-extra": "6.0.1",
+    "ganache-core": "2.8.0",
+    "glob": "^7.1.4",
+    "hdkey": "^1.1.0",
+    "mkdirp": "^0.5.1",
+    "mocha": "5.2.0",
+    "node-emoji": "^1.8.1",
+    "node-ipc": "^9.1.1",
+    "original-require": "1.0.1",
+    "safe-eval": "^0.4.1",
+    "sane": "^4.0.2",
+    "source-map-support": "^0.5.3",
+    "spawn-args": "^0.1.0",
+    "temp": "^0.8.3",
+    "universal-analytics": "^0.4.17",
+    "xregexp": "^4.2.4",
+    "yargs": "^8.0.2",
+    "youchain": "^1.0.0-alpha.36",
+    "youchain-utils": "^1.0.0-alpha.36"
+  },
+  "devDependencies": {
+    "@youbox/blockchain-utils": "^1.0.0-alpha.33",
+    "glob": "^7.1.2",
+    "memorystream": "^0.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "namespace": "consensys",
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

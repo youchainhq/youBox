@@ -1,0 +1,36 @@
+{
+  "name": "@youbox/require",
+  "description": "Require and execute a Javascript module within a YOUBox context",
+  "license": "MIT",
+  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/require#readme",
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/require",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "version": "1.0.0-alpha.33",
+  "main": "require.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@youbox/config": "^1.0.0-alpha.33",
+    "@youbox/expect": "^1.0.0-alpha.33",
+    "@youbox/interface-adapter": "^1.0.0-alpha.33",
+    "original-require": "1.0.1",
+    "youchain": "^1.0.0-alpha.36"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0"
+  },
+  "keywords": [
+    "youchain",
+    "exec",
+    "require",
+    "youbox"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

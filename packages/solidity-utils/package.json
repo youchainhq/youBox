@@ -1,0 +1,24 @@
+{
+  "name": "@youbox/solidity-utils",
+  "version": "1.0.0-alpha.33",
+  "description": "Utilities for Solidity contracts",
+  "main": "index.js",
+  "scripts": {},
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/solidity-utils",
+  "keywords": [
+    "youchain",
+    "youbox",
+    "solidity",
+    "contracts"
+  ],
+  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/solidity-utils#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

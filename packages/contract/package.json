@@ -1,0 +1,56 @@
+{
+  "name": "@youbox/contract",
+  "description": "A better contract abstraction for YOUChain (formerly EtherPudding)",
+  "license": "MIT",
+  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/contract#readme",
+  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/contract",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "version": "1.0.0-alpha.33",
+  "main": "index.js",
+  "scripts": {
+    "compile": "mkdir -p dist && browserify ./index.js -o ./dist/truffle-contract.js && uglifyjs ./dist/truffle-contract.js -o ./dist/truffle-contract.min.js",
+    "prepare": "yarn compile",
+    "publish:next": "node ../youbox/scripts/prereleaseVersion.js next next",
+    "test": "./scripts/test.sh",
+    "test:debug": "$(yarn bin)/mocha --inspect-brk",
+    "test:trace": "$(yarn bin)/mocha --trace-warnings"
+  },
+  "typings": "./typings/index.d.ts",
+  "dependencies": {
+    "@youbox/blockchain-utils": "^1.0.0-alpha.33",
+    "@youbox/contract-schema": "^1.0.0-alpha.33",
+    "@youbox/error": "^1.0.0-alpha.33",
+    "@youbox/interface-adapter": "^1.0.0-alpha.33",
+    "bignumber.js": "^7.2.1",
+    "ethereum-ens": "^0.7.7",
+    "ethers": "^4.0.0-beta.1",
+    "youchain": "^1.0.0-alpha.36",
+    "youchain-core-promievent": "^1.0.0-alpha.36",
+    "youchain-utils": "^1.0.0-alpha.36",
+    "youchain-you-abi": "^1.0.0-alpha.36"
+  },
+  "devDependencies": {
+    "@youbox/compile-solidity": "^1.0.0-alpha.33",
+    "browserify": "^14.0.0",
+    "chai": "4.2.0",
+    "debug": "^4.1.0",
+    "ganache-core": "2.8.0",
+    "mocha": "5.2.0",
+    "sinon": "^7.3.2",
+    "temp": "^0.8.3",
+    "uglify-es": "^3.3.9"
+  },
+  "keywords": [
+    "abstraction",
+    "contract",
+    "youchain",
+    "youbox"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}

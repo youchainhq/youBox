@@ -1,0 +1,16 @@
+{
+  "name": "@youbox/events",
+  "version": "1.0.0-alpha.33",
+  "description": "Event system for YOUBox",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Nick D'Andrea and Tyler Feickert",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "emittery": "^0.4.1"
+  },
+  "gitHead": "a21f27ce04b36fdd09d1b74b3bc582759099f646"
+}
